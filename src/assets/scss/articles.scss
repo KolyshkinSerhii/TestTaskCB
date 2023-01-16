@@ -1,0 +1,51 @@
+$base-color: #363636;
+$base-font: 'Montserrat';
+
+hr {
+  width: 1390px;
+  height: 0px;
+
+  border: 1px solid #EAEAEA;
+}
+
+.container {
+  width: 1440px;
+  margin: auto;
+  margin-top: 50px;
+  font-family: $base-font;
+  color: $base-color;
+}
+
+.input {
+  width: 600px;
+  height: 50px;
+  margin-top: 23px;
+  margin-bottom: 40px;
+  padding-left: 20px;
+
+  border: 1px solid #EAEAEA;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.resultsCount {
+  width: 1290px;
+  margin-bottom: 50px;
+  font-family: $base-font;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: $base-color;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 45px;
+}

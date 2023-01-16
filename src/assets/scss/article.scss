@@ -1,0 +1,30 @@
+$base-color: #363636;
+$base-font: 'Montserrat';
+
+.YourHighlightClass {
+  background-color: #ffd54f;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-button {
+  display: flex;
+  align-items: center;
+}
+
+.card-button {
+  color: $base-color;
+  font-family: $base-font;
+  font-weight: 700;
+
+  border: none;
+  background-color: #fff;
+}
+
+.card-button img {
+  padding-left: 6px;
+}
