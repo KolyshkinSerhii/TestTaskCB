@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path='/' element={<Articles articles={articles}/>} />
+        <Route path='/TestTaskCB/' element={<Articles articles={articles}/>} />
         <Route path='/ArticleDetailedInfo/:id' element={<ArticleDetailedInfo articles={articles}/>} />
         <Route />
       </Routes>
