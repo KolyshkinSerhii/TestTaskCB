@@ -21,7 +21,7 @@ const ArticleDetailedInfo: React.FC<Props> = ({ article }) => {
             <h2 className='detailedInfo-text-container-title'>{article.title}</h2>
             <div className='detailedInfo-text-container-summary'>{article.summary}</div>
           </div>
-          {<NavLink to={'/'}>
+          {<NavLink to={'/TestTaskCB/'}>
             <button className='card-button-left'>
               <img className='reverse-arrow' src={arrow} alt="" />
               Back to homepage

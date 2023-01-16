@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path='/TestTaskCB/' element={<Articles articles={articles}/>} />
-        <Route path='/TestTaskCB/ArticleDetailedInfo/:id' element={<ArticleDetailedInfo articles={articles}/>} />
+        <Route path='/ArticleDetailedInfo/:id' element={<ArticleDetailedInfo articles={articles}/>} />
         <Route />
       </Routes>
     </div>
